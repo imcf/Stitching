@@ -42,6 +42,7 @@ public class ImageCollectionElement
 	public void setModel( final Model<?> model ) { this.model = model; }
 	public Model<?> getModel() { return model; }
 	
+	// is there a specific reason why setDimensionality() doesn't set the Model as well?
 	public void setDimensionality( final int dimensionality ) { this.dimensionality = dimensionality; }
 	public int getDimensionality() { return dimensionality; }
 	
